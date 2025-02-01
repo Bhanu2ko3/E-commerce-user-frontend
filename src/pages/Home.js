@@ -3,19 +3,25 @@ import Hero from "../components/Hero";
 import About from "./About";
 import Footer from "../components/Footer";
 import Products from "./Products";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
     <div>
       <Hero />
-      <section className="p-10">
-        <h2 className="text-2xl font-bold text-center">Our Best Sellers</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
-          {/* Add Product Cards Here */}
-        </div>
-      </section>
       <Products />
+      <div class="flex justify-center">
+      <a
+        href="/products"
+        class="mt-5 mb-10 bg-beige text-primary px-6 py-3 pb-4 rounded-lg font-bold text-lg transition duration-300 hover:bg-primary hover:text-white"
+      >
+        View All Products
+      </a>
+
+      </div>
+
       <About />
+      <Contact/>
       <Footer />
       
     </div>

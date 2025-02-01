@@ -22,7 +22,7 @@ const ProductCard = ({ name, image, price }) => (
 
 const Products = () => (
   <div className="p-10">
-    <h2 className="text-2xl font-bold text-center">Our Sweets</h2>
+    <h2 className="text-2xl font-bold text-center">Our Products</h2>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
       
       <ProductCard name="Kokis" image={kokis} price="5" />
