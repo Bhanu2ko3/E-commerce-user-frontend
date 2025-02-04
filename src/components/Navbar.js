@@ -1,5 +1,5 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
-import { Bars3Icon } from '@heroicons/react/24/outline';
+import { Bars3Icon, ShoppingCartIcon } from '@heroicons/react/24/outline';
 import logo from '../assets/logo.png';
 import { Link } from "react-router-dom";
 
@@ -64,11 +64,11 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* Profile Dropdown */}
+          {/* Cart Icon */}
           <div className="flex items-center space-x-4">
-            <button className="relative p-2 rounded-full bg-primary-dark hover:text-beige focus:ring-2 focus:ring-white">
-              
-            </button>
+            <Link to="/cart" className="relative p-2 rounded-full bg-primary-dark hover:text-beige focus:ring-2 focus:ring-white">
+              <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
+            </Link>
           </div>
         </div>
       </div>
