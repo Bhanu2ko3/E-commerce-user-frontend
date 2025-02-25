@@ -10,6 +10,8 @@ import Cart from "./pages/Cart";
 import Navbar from './components/Navbar';
 import Checkout from './pages/Checkout';
 
+import CustomerReviews from "./components/CustomerReviews";
+
 function App() {
   return (
     <CartProvider> {/* Wrap the entire app with CartProvider */}
@@ -23,6 +25,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/reviews" element={<CustomerReviews />} />
         </Routes>
       </Router>
     </CartProvider>
