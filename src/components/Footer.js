@@ -34,8 +34,8 @@ const Footer = () => {
           {/* Contact & Social Media */}
           <div>
             <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
-            <p className="text-sm">+94 123 456 789</p>
-            <p className="text-sm">info@kavumkokis.com</p>
+            <p className="text-sm">+94 701322538</p>
+            <p className="text-sm">info@helarasa.com</p>
             <div className="flex justify-center md:justify-start space-x-4 mt-3">
               <a
                 href="https://wa.me/+94123456789"
@@ -75,7 +75,7 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="mt-6 text-center text-sm border-t border-gray-400 pt-4">
-          <p>Made with ❤️ by Sithamu Hela Rasa Team</p>
+          <p>Made with by Sithamu Hela Rasa Team</p>
         </div>
       </div>
     </footer>

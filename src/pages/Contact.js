@@ -3,9 +3,9 @@ const Contact = () => (
     {/* Contact Details Box */}
     <div className="bg-gray-100 p-6 rounded-lg shadow-md text-center w-full lg:w-1/2">
       <h3 className="text-2xl font-bold text-primary mb-4">Our Contact Details</h3>
-      <p className="text-lg text-gray-700 mb-2">No -15, Senapura, Kindelpitiya, Welmilla, Bandaragama, Sri Lanka</p>
-      <p className="text-lg text-gray-700 mb-2">+94 773983356</p>
-      <p className="text-lg text-gray-700 mb-4">info@kavumkokis.com</p>
+      <p className="text-lg text-gray-700 mb-2">Kandy Nawalapitiyta, Sri Lanka</p>
+      <p className="text-lg text-gray-700 mb-2">+94 701322538</p>
+      <p className="text-lg text-gray-700 mb-4">info@helarasa.com</p>
     </div>
 
     {/* Contact Form */}
